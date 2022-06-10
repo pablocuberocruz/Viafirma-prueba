@@ -1,0 +1,12 @@
+jun. 10, 2022 3:37:01 P. M. com.viafirma.pablocubero.prueba.servicios.impl.LogService saveLog
+INFO: Index -1 out of bounds for length 0
+jun. 10, 2022 3:37:30 P. M. org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+jun. 10, 2022 3:37:30 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'dispatcherServlet'
+jun. 10, 2022 3:37:30 P. M. org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+jun. 10, 2022 3:37:30 P. M. org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.63]
+jun. 10, 2022 3:37:30 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring embedded WebApplicationContext

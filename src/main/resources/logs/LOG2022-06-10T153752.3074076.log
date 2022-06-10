@@ -1,0 +1,96 @@
+jun. 10, 2022 3:37:52 P. M. com.viafirma.pablocubero.prueba.servicios.impl.LogService saveLog
+INFO: Index -1 out of bounds for length 0
+jun. 10, 2022 3:39:19 P. M. org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+jun. 10, 2022 3:39:19 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'dispatcherServlet'
+jun. 10, 2022 3:39:20 P. M. org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+jun. 10, 2022 3:39:20 P. M. org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.63]
+jun. 10, 2022 3:39:20 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring embedded WebApplicationContext
+jun. 10, 2022 3:39:31 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring DispatcherServlet 'dispatcherServlet'
+jun. 10, 2022 3:39:42 P. M. org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+jun. 10, 2022 3:39:42 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'dispatcherServlet'
+jun. 10, 2022 3:39:42 P. M. org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+jun. 10, 2022 3:39:42 P. M. org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.63]
+jun. 10, 2022 3:39:42 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring embedded WebApplicationContext
+jun. 10, 2022 3:43:48 P. M. org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+jun. 10, 2022 3:43:48 P. M. org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+jun. 10, 2022 3:43:48 P. M. org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.63]
+jun. 10, 2022 3:43:48 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring embedded WebApplicationContext
+jun. 10, 2022 3:44:39 P. M. org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+jun. 10, 2022 3:44:39 P. M. org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+jun. 10, 2022 3:44:39 P. M. org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.63]
+jun. 10, 2022 3:44:39 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring embedded WebApplicationContext
+jun. 10, 2022 3:45:47 P. M. org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+jun. 10, 2022 3:45:47 P. M. org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+jun. 10, 2022 3:45:47 P. M. org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.63]
+jun. 10, 2022 3:45:47 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring embedded WebApplicationContext
+jun. 10, 2022 3:45:53 P. M. org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+jun. 10, 2022 3:45:53 P. M. org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+jun. 10, 2022 3:45:53 P. M. org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.63]
+jun. 10, 2022 3:45:53 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring embedded WebApplicationContext
+jun. 10, 2022 3:45:57 P. M. org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+jun. 10, 2022 3:45:57 P. M. org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+jun. 10, 2022 3:45:57 P. M. org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.63]
+jun. 10, 2022 3:45:57 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring embedded WebApplicationContext
+jun. 10, 2022 3:46:03 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring DispatcherServlet 'dispatcherServlet'
+jun. 10, 2022 3:46:06 P. M. org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+jun. 10, 2022 3:46:06 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'dispatcherServlet'
+jun. 10, 2022 3:46:06 P. M. org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+jun. 10, 2022 3:46:06 P. M. org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.63]
+jun. 10, 2022 3:46:06 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring embedded WebApplicationContext
+jun. 10, 2022 3:46:09 P. M. org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+jun. 10, 2022 3:46:10 P. M. org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+jun. 10, 2022 3:46:10 P. M. org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.63]
+jun. 10, 2022 3:46:10 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring embedded WebApplicationContext
+jun. 10, 2022 3:46:27 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring DispatcherServlet 'dispatcherServlet'
+jun. 10, 2022 3:46:35 P. M. org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+jun. 10, 2022 3:46:35 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'dispatcherServlet'
+jun. 10, 2022 3:46:35 P. M. org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+jun. 10, 2022 3:46:35 P. M. org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.63]
+jun. 10, 2022 3:46:35 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring embedded WebApplicationContext
