@@ -15,7 +15,6 @@ public class Error {
 	 * @param error
 	 */
 	public Error(String error) {
-		super();
 		this.error = error;
 	}
 

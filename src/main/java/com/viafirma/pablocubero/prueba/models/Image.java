@@ -11,7 +11,7 @@ import com.viafirma.pablocubero.prueba.util.Constants;
  */
 public class Image {
 
-	private long id;
+	private String id;
 
 	private String name;
 
@@ -19,8 +19,7 @@ public class Image {
 	 * @param id
 	 * @param name
 	 */
-	public Image(long id, String name) {
-		super();
+	public Image(String id, String name) {
 		this.id = id;
 		this.name = name;
 	}
@@ -28,14 +27,14 @@ public class Image {
 	/**
 	 * @return the id
 	 */
-	public long getId() {
+	public String getId() {
 		return id;
 	}
 
 	/**
 	 * @param id the id to set
 	 */
-	public void setId(long id) {
+	public void setId(String id) {
 		this.id = id;
 	}
 

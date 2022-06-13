@@ -1,0 +1,44 @@
+2022-06-14 00:57:48,373 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting PruebaTecnicaApplication using Java 11.0.15 on DESKTOP-OUSDFR1 with PID 31120 (C:\Prueba Viafirma\prueba\target\classes started by Pablo Cubero Cruz in C:\Prueba Viafirma\prueba)
+2022-06-14 00:57:48,374 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-14 00:57:48,374 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-06-14 00:57:48,516 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started PruebaTecnicaApplication in 0.165 seconds (JVM running for 575.649)
+2022-06-14 00:57:51,158 ERROR com.viafirma.pablocubero.prueba.controllers.DownloadPdfController [http-nio-9080-exec-1] ERROR: Id no asociado a ningún documento
+2022-06-14 00:57:56,215 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting PruebaTecnicaApplication using Java 11.0.15 on DESKTOP-OUSDFR1 with PID 31120 (C:\Prueba Viafirma\prueba\target\classes started by Pablo Cubero Cruz in C:\Prueba Viafirma\prueba)
+2022-06-14 00:57:56,215 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-14 00:57:56,215 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-06-14 00:57:56,344 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started PruebaTecnicaApplication in 0.148 seconds (JVM running for 583.476)
+2022-06-14 00:57:57,926 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting PruebaTecnicaApplication using Java 11.0.15 on DESKTOP-OUSDFR1 with PID 31120 (C:\Prueba Viafirma\prueba\target\classes started by Pablo Cubero Cruz in C:\Prueba Viafirma\prueba)
+2022-06-14 00:57:57,927 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-14 00:57:57,927 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-06-14 00:57:58,053 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started PruebaTecnicaApplication in 0.141 seconds (JVM running for 585.185)
+2022-06-14 00:58:22,992 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting PruebaTecnicaApplication using Java 11.0.15 on DESKTOP-OUSDFR1 with PID 31120 (C:\Prueba Viafirma\prueba\target\classes started by Pablo Cubero Cruz in C:\Prueba Viafirma\prueba)
+2022-06-14 00:58:22,993 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-14 00:58:22,993 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-06-14 00:58:23,103 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started PruebaTecnicaApplication in 0.138 seconds (JVM running for 610.247)
+2022-06-14 01:00:16,740 ERROR com.viafirma.pablocubero.prueba.controllers.DownloadPdfController [http-nio-9080-exec-2] ERROR: Id no asociado a ningún documento
+2022-06-14 01:00:28,159 ERROR com.viafirma.pablocubero.prueba.controllers.ImgToPdfController [http-nio-9080-exec-4] ERROR: Imagen no adjuntada
+2022-06-14 01:00:46,009 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting PruebaTecnicaApplication using Java 11.0.15 on DESKTOP-OUSDFR1 with PID 31120 (C:\Prueba Viafirma\prueba\target\classes started by Pablo Cubero Cruz in C:\Prueba Viafirma\prueba)
+2022-06-14 01:00:46,010 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-14 01:00:46,010 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-06-14 01:00:46,148 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started PruebaTecnicaApplication in 0.155 seconds (JVM running for 753.28)
+2022-06-14 01:00:50,363 ERROR com.viafirma.pablocubero.prueba.controllers.DownloadPdfController [http-nio-9080-exec-1] Id no asociado a ningún documento
+2022-06-14 01:00:58,907 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting PruebaTecnicaApplication using Java 11.0.15 on DESKTOP-OUSDFR1 with PID 31120 (C:\Prueba Viafirma\prueba\target\classes started by Pablo Cubero Cruz in C:\Prueba Viafirma\prueba)
+2022-06-14 01:00:58,908 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-14 01:00:58,908 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-06-14 01:00:59,033 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started PruebaTecnicaApplication in 0.158 seconds (JVM running for 766.179)
+2022-06-14 01:01:09,753 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting PruebaTecnicaApplication using Java 11.0.15 on DESKTOP-OUSDFR1 with PID 31120 (C:\Prueba Viafirma\prueba\target\classes started by Pablo Cubero Cruz in C:\Prueba Viafirma\prueba)
+2022-06-14 01:01:09,754 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-14 01:01:09,754 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-06-14 01:01:09,863 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started PruebaTecnicaApplication in 0.127 seconds (JVM running for 776.998)
+2022-06-14 01:01:11,459 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting PruebaTecnicaApplication using Java 11.0.15 on DESKTOP-OUSDFR1 with PID 31120 (C:\Prueba Viafirma\prueba\target\classes started by Pablo Cubero Cruz in C:\Prueba Viafirma\prueba)
+2022-06-14 01:01:11,460 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-14 01:01:11,460 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-06-14 01:01:11,569 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started PruebaTecnicaApplication in 0.133 seconds (JVM running for 778.71)
+2022-06-14 01:01:14,167 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting PruebaTecnicaApplication using Java 11.0.15 on DESKTOP-OUSDFR1 with PID 31120 (C:\Prueba Viafirma\prueba\target\classes started by Pablo Cubero Cruz in C:\Prueba Viafirma\prueba)
+2022-06-14 01:01:14,167 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-14 01:01:14,168 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-06-14 01:01:14,277 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started PruebaTecnicaApplication in 0.126 seconds (JVM running for 781.412)
+2022-06-14 01:01:15,875 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting PruebaTecnicaApplication using Java 11.0.15 on DESKTOP-OUSDFR1 with PID 31120 (C:\Prueba Viafirma\prueba\target\classes started by Pablo Cubero Cruz in C:\Prueba Viafirma\prueba)
+2022-06-14 01:01:15,876 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-14 01:01:15,876 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-06-14 01:01:15,986 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started PruebaTecnicaApplication in 0.127 seconds (JVM running for 783.119)

@@ -9,27 +9,26 @@ package com.viafirma.pablocubero.prueba.models;
  */
 public class Document {
 
-	private long idDocument;
+	private String idDocument;
 
 	/**
 	 * @param idDocument
 	 */
-	public Document(long idDocument) {
-		super();
+	public Document(String idDocument) {
 		this.idDocument = idDocument;
 	}
 
 	/**
 	 * @return the idDocument
 	 */
-	public long getIdDocument() {
+	public String getIdDocument() {
 		return idDocument;
 	}
 
 	/**
 	 * @param idDocument the idDocument to set
 	 */
-	public void setIdDocument(long idDocument) {
+	public void setIdDocument(String idDocument) {
 		this.idDocument = idDocument;
 	}
 

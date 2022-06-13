@@ -9,6 +9,8 @@ import java.io.File;
 import javax.servlet.http.HttpServletResponse;
 
 import org.apache.pdfbox.pdmodel.PDDocument;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -17,7 +19,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.viafirma.pablocubero.prueba.models.Image;
 import com.viafirma.pablocubero.prueba.servicios.IImageService;
-import com.viafirma.pablocubero.prueba.servicios.ILogService;
 import com.viafirma.pablocubero.prueba.util.Constants;
 import com.viafirma.pablocubero.prueba.util.Errors;
 
@@ -29,22 +30,37 @@ import com.viafirma.pablocubero.prueba.util.Errors;
 @RequestMapping("/pdf")
 public class DownloadPdfController {
 
-	@Autowired
-	private IImageService imageService;
+	Logger logger = LoggerFactory.getLogger(DownloadPdfController.class);
+
+	private final IImageService imageService;
 
 	@Autowired
-	private ILogService logService;
+	public DownloadPdfController(IImageService imageService) {
+		this.imageService = imageService;
+	}
 
 	@GetMapping(value = "/{idDocument}")
 	public String downloadImage(HttpServletResponse response, @PathVariable String idDocument) {
-		PDDocument document = null;
+		File file = null;
+		String pathPdf = "";
+		Image image = null;
+
 		try {
-			Long id = Long.valueOf(idDocument);
-			Image image = this.imageService.getImageById(id);
+			image = this.imageService.getImageById(idDocument);
 			if (image != null) {
-				String pathPdf = Constants.PATH_SAVE_PDF + image.getName();
-				File file = new File(pathPdf);
-				document = PDDocument.load(file);
+				pathPdf = Constants.PATH_SAVE_PDF + image.getName();
+				file = new File(pathPdf);
+			} else {
+				logger.error(Errors.ERROR_DOCUMENT_NOT_EXIST);
+				return this.imageService.createMessageAndConvertToJson(Errors.ERROR_DOCUMENT_NOT_EXIST);
+			}
+		} catch (Exception e) {
+			logger.error(e.getLocalizedMessage());
+			return this.imageService.createMessageAndConvertToJson(Errors.ERROR_NOT_EXPECTED);
+		}
+
+		if (file != null && image != null) {
+			try (PDDocument document = PDDocument.load(file);) {
 				ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
 				document.save(byteArrayOutputStream);
 
@@ -55,23 +71,11 @@ public class DownloadPdfController {
 						"attachment; filename=\"" + image.getName().replace("_" + idDocument, ""));
 				response.getOutputStream().write(byteArrayOutputStream.toByteArray());
 				return "";
-			} else {
-				return this.logService.createMessageAndConvertToJson(Errors.ERROR_DOCUMENTO_NO_EXISTE);
-			}
-		} catch (NumberFormatException e) {
-			logService.saveLog(String.valueOf(e.getLocalizedMessage()));
-			return this.logService.createMessageAndConvertToJson(Errors.ERROR_NO_NUMERICO);
-		} catch (Exception e) {
-			logService.saveLog(String.valueOf(e.getLocalizedMessage()));
-			return this.logService.createMessageAndConvertToJson(Errors.ERROR_NO_ESPERADO);
-		} finally {
-			try {
-				if (document != null) {
-					document.close();
-				}
-			} catch (Exception e2) {
-				logService.saveLog(String.valueOf(e2.getLocalizedMessage()));
+			} catch (Exception e) {
+				logger.error(e.getLocalizedMessage());
+				return this.imageService.createMessageAndConvertToJson(Errors.ERROR_NOT_EXPECTED);
 			}
 		}
+		return "";
 	}
 }
